@@ -1,4 +1,4 @@
-rootProject.name = 'ar-nft'
+rootProject.name = 'app'
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()

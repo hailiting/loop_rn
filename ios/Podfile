@@ -2,9 +2,9 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/react-native-unimodules/cocoapods.rb'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '12.0'
+platform :ios, '11.0'
 
-target 'loop_rn' do
+target 'app' do
   use_unimodules!
   config = use_native_modules!
 
@@ -12,6 +12,7 @@ target 'loop_rn' do
 
   pod 'ViroReact', :path => '../node_modules/react-viro/ios/'
   pod 'ViroKit_static_lib', :path => '../node_modules/react-viro/ios/dist/ViroRenderer/static_lib'
+
   # Uncomment to opt-in to using Flipper
   #
   # if !ENV['CI']
@@ -20,9 +21,4 @@ target 'loop_rn' do
   #     flipper_post_install(installer)
   #   end
   # end
-  post_install do |installer|
-    installer.pods_project.build_configurations.each do |config|
-      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-    end
-  end
 end

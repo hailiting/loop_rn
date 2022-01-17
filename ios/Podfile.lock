@@ -60,7 +60,7 @@ PODS:
   - glog (0.3.5)
   - MMKV (1.2.11):
     - MMKVCore (~> 1.2.11)
-  - MMKVCore (1.2.11)
+  - MMKVCore (1.2.12)
   - RCTRequired (0.63.4)
   - RCTTypeSafety (0.63.4):
     - FBLazyVector (= 0.63.4)
@@ -229,7 +229,7 @@ PODS:
   - React-jsinspector (0.63.4)
   - react-native-get-random-values (1.5.0):
     - React
-  - react-native-mmkv (1.5.3):
+  - react-native-mmkv (1.6.3):
     - MMKV
     - React-Core
   - react-native-video (5.2.0):
@@ -299,11 +299,11 @@ PODS:
     - React-jsi (= 0.63.4)
   - RNCAsyncStorage (1.13.4):
     - React-Core
-  - RNDeviceInfo (8.4.5):
+  - RNDeviceInfo (8.4.8):
     - React-Core
   - RNGestureHandler (1.10.3):
     - React-Core
-  - RNReanimated (2.2.2):
+  - RNReanimated (2.2.4):
     - DoubleConversion
     - FBLazyVector
     - FBReactNativeSpec
@@ -540,7 +540,7 @@ SPEC CHECKSUMS:
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
   MMKV: 217b643c181c3d2f71983206ca1972d0a6e99881
-  MMKVCore: f9e4f56742fdebbd042f7a273e278927f182cee7
+  MMKVCore: df0565f6b58463604731a68ba6cd89bc0b2d1d55
   RCTRequired: 082f10cd3f905d6c124597fd1c14f6f2655ff65e
   RCTTypeSafety: 8c9c544ecbf20337d069e4ae7fd9a377aadf504b
   React: b0a957a2c44da4113b0c4c9853d8387f8e64e615
@@ -552,7 +552,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 93bd528844ad21dc07aab1c67cb10abae6df6949
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
   react-native-get-random-values: 1404bd5cc0ab0e287f75ee1c489555688fc65f89
-  react-native-mmkv: 576edf2fb8e6a08f368357d8e02b2971abe08e0d
+  react-native-mmkv: 6d019cdfab9c197e10561a58ef4096b49bc9ecce
   react-native-video: a4c2635d0802f983594b7057e1bce8f442f0ad28
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
@@ -565,9 +565,9 @@ SPEC CHECKSUMS:
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   RNCAsyncStorage: 44539979e1f234262d64d3ce86ec21cceb1b2c5e
-  RNDeviceInfo: ec64a28e7ddf30399f34c04708fdf702560d083a
+  RNDeviceInfo: 0400a6d0c94186d1120c3cbd97b23abc022187a9
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
-  RNReanimated: 6ec2460b9c6c8f3b1403bd0eaa12d359a98650e3
+  RNReanimated: e5040efc7c90da0b190a6525fcfc7e1e75973b21
   RNScreens: 21b73c94c9117e1110a79ee0ee80c93ccefed8ce
   RNSVG: a53a5de0d90ec96a6502cc3a4534dfcc0c130622
   UMAppLoader: 21af63390e55c82e037fb9752d93114a80ecf16e
@@ -578,6 +578,6 @@ SPEC CHECKSUMS:
   ViroReact: 7ec32276dcd1883662b4587eaedfff67f7fc3625
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 34f212fb73c1c3f5b35a7f908a0b46ee84a37ae6
+PODFILE CHECKSUM: 3c414b620d255271b96e19b377644ba6774c3252
 
 COCOAPODS: 1.11.2
